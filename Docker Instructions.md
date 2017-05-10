@@ -62,7 +62,12 @@ This places your /src folder in http://localhost/ location and PHPMyAdmin at htt
 
 Note: it you’re running a generic PHP image from Docker as a container with apache, e.g. php:5.6.30-apache, make sure to exclude `-it` option, for more details see:
 [https://github.com/docker-library/php/issues/64](https://github.com/docker-library/php/issues/64)
-
+In this case there is an option to run
+```bash
+$ docker exec -it CONTAINER_ID_OR_NAME /bin/bash
+```
+To enable interactivity
+ 
 ### Configuration:
 MongoDB:
 ```php
