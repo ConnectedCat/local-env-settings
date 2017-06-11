@@ -55,7 +55,7 @@ $ docker run --name mysql-server -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:330
 $ docker run --name myadmin -d --link mysql-server:db -p 8080:80 phpmyadmin/phpmyadmin
 ```
 ```bash
-$ docker run -it --name app-server --link mongo-server:mongo-server --link mysql-server:mysql-server -p 80:80 -v /local/path/to/src:/var/www/html php:latest
+$ docker run -it --name app-server --link mongo-server:mongo-server --link mysql-server:mysql-server -p 80:80 -v /local/path/to/src:/var/www/html php:apache
 ```
 
 This places your /src folder in http://localhost/ location and PHPMyAdmin at http://localhost:8080/
