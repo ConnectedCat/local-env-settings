@@ -23,7 +23,7 @@ $ docker pull phpmyadmin/phpmyadmin
 ``` 
 (optional, if you’re looking for a MySQL management GUI)
 ```bash
-$ docker pull php:latest
+$ docker pull php:apache
 ``` 
 (or whatever)  
 
