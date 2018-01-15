@@ -8,6 +8,6 @@ Includes:
  - Docker instructions
  ...
 
-
-Start by cloning https://github.com/lysyi3m/osx-terminal-themes and setting up the Chalkboard theme :)
-Then set up Git autocompletion by following the instructions from here: https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion
+## Step-by-step
+1. Start by cloning https://github.com/lysyi3m/osx-terminal-themes and setting up the Chalkboard theme :)
+2. Then set up Git autocompletion by following the instructions from here: https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion
