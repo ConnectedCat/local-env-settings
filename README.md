@@ -7,3 +7,6 @@ Includes:
  - Visual Studio Code snippets
  - Docker instructions
  ...
+
+
+Start by cloning https://github.com/lysyi3m/osx-terminal-themes and setting up the Chalkboard theme :)
