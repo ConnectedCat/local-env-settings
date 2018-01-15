@@ -7,3 +7,6 @@ source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-prompt.
 
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1="\u@\h: \w \[\033[32m\]\$(__git_ps1)\[\033[00m\] \n$ "
+
+# I do like nano, don't judge
+export GIT_EDITOR=nano
