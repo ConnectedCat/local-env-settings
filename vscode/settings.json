@@ -1,0 +1,8 @@
+{
+    
+    "beautify.config": { // Beautify extension
+        "html": {
+            "wrap_line_length": 0 // Lines should wrap at next opportunity after this number of characters (0 disables)
+        }
+    }
+}
